@@ -1,0 +1,26 @@
+{
+    "excludednames" : {
+        "path" : "scriptpath",
+        "name" : "excluded names.txt"
+    },
+    "searchfile": {
+        "path" : "Downloads",
+        "namekeyword" : "print",
+        "type" : ".pdf"
+    },
+    "mergefile" : {
+        "path": "scriptpath",
+        "name" : "signature.pdf"
+    },
+    "outfile": {
+        "path" : "Documents",
+        "name" : "ts_signature-"
+    },
+    "debug" : {
+        "active" : false,
+        "locals" : false,
+        "scope" : false,
+        "globals" : false,
+        "kwargs" : {"scriptpath": "self.scriptpath", "homepath":"self.homepath", "editfile" : "self.editfile", "wartermark" : "self.watermark", "tempfile" : "self.temp", "outfile": "self.outfile"}
+    }
+}
